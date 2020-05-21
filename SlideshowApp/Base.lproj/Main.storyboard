@@ -10,6 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -24,9 +25,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZl-8c-5oJ">
-                                <rect key="frame" x="162.5" y="625" width="89" height="36"/>
+                                <rect key="frame" x="186.5" y="625" width="41" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="再生/停止"/>
+                                <state key="normal" title="再生"/>
                                 <connections>
                                     <action selector="timer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NI4-Lc-REG"/>
                                 </connections>
@@ -35,7 +36,7 @@
                                 <rect key="frame" x="107" y="314" width="200" height="268"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="5qX-mI-bht" appends="YES" id="T4j-F6-1ba"/>
+                                    <outletCollection property="gestureRecognizers" destination="zS4-4i-Xwg" appends="YES" id="fgV-qv-uCd"/>
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pW5-k4-ENR">
@@ -48,6 +49,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="2xX-zs-C0y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="270" id="1Je-ls-Qj1"/>
                             <constraint firstItem="pW5-k4-ENR" firstAttribute="firstBaseline" secondItem="XZl-8c-5oJ" secondAttribute="firstBaseline" id="43q-GI-oJc"/>
@@ -69,10 +71,10 @@
                         <outlet property="startButton" destination="XZl-8c-5oJ" id="mwu-gB-dlw"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="5qX-mI-bht">
+                <tapGestureRecognizer id="zS4-4i-Xwg">
                     <connections>
-                        <segue destination="skh-6I-f73" kind="show" identifier="" id="JOK-ye-UgJ"/>
+                        <action selector="tapAction:" destination="BYZ-38-t0r" id="Fdc-U4-Bv8"/>
+                        <segue destination="skh-6I-f73" kind="show" id="wbW-5W-LpQ"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

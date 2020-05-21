@@ -73,13 +73,18 @@ class ViewController: UIViewController,UICollectionViewDelegate {
     
     @IBAction func tapAction(_ sender: Any) {
         self.performSegue(withIdentifier: "ExpansionViewController", sender: nil)
-        self.timer.invalidate()
     }
-    
     
     override func prepare( for segue: UIStoryboardSegue, sender: Any?) {
         let ExpansionViewController:ExpansionViewController = segue.destination as! ExpansionViewController
         ExpansionViewController.bigImageView = omikujiArray[omikuji]
+        if self.timer != nil {
+            self.timer.invalidate()
+            self.timer = nil
+            self.startButton.setTitle("再生", for: .normal)
+            backButton.isEnabled = true
+            moveOnButton.isEnabled = true
+        }
     }
     
     @IBAction func unwind(_ segue: UIStoryboardSegue) {

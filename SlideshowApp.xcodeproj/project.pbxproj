@@ -14,9 +14,9 @@
 		AF2F66D6247279DD00038CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2F66D5247279DD00038CE8 /* Assets.xcassets */; };
 		AF2F66D9247279DD00038CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2F66D7247279DD00038CE8 /* LaunchScreen.storyboard */; };
 		AF5C33D52475267A006B7013 /* ExpansionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C33D42475267A006B7013 /* ExpansionViewController.swift */; };
-		AF5C33D72475F6ED006B7013 /* omikuji-daikichi.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5C33D62475F6ED006B7013 /* omikuji-daikichi.png */; };
-		AF5C33DA2475F6FC006B7013 /* omikuji-kichi.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5C33D82475F6FC006B7013 /* omikuji-kichi.png */; };
-		AF5C33DB2475F6FC006B7013 /* omikuji-kyo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5C33D92475F6FC006B7013 /* omikuji-kyo.png */; };
+		AF5C33FF247645D8006B7013 /* omikuji-daikichi.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5C33FE247645D8006B7013 /* omikuji-daikichi.png */; };
+		AF5C3401247645F7006B7013 /* omikuji-kichi.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5C3400247645F6006B7013 /* omikuji-kichi.png */; };
+		AF5C340324764608006B7013 /* omikuji-kyo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5C340224764608006B7013 /* omikuji-kyo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +29,9 @@
 		AF2F66D8247279DD00038CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF2F66DA247279DD00038CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF5C33D42475267A006B7013 /* ExpansionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpansionViewController.swift; sourceTree = "<group>"; };
-		AF5C33D62475F6ED006B7013 /* omikuji-daikichi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "omikuji-daikichi.png"; path = "../../../Downloads/omikuji-daikichi.png"; sourceTree = "<group>"; };
-		AF5C33D82475F6FC006B7013 /* omikuji-kichi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "omikuji-kichi.png"; path = "../../../Downloads/omikuji-kichi.png"; sourceTree = "<group>"; };
-		AF5C33D92475F6FC006B7013 /* omikuji-kyo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "omikuji-kyo.png"; path = "../../../Downloads/omikuji-kyo.png"; sourceTree = "<group>"; };
+		AF5C33FE247645D8006B7013 /* omikuji-daikichi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "omikuji-daikichi.png"; path = "../../../Downloads/omikuji-daikichi.png"; sourceTree = "<group>"; };
+		AF5C3400247645F6006B7013 /* omikuji-kichi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "omikuji-kichi.png"; path = "../../../Downloads/ios 3/omikuji-kichi.png"; sourceTree = "<group>"; };
+		AF5C340224764608006B7013 /* omikuji-kyo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "omikuji-kyo.png"; path = "../../../Downloads/omikuji-kyo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,11 +70,11 @@
 				AF5C33D42475267A006B7013 /* ExpansionViewController.swift */,
 				AF2F66D2247279DA00038CE8 /* Main.storyboard */,
 				AF2F66D5247279DD00038CE8 /* Assets.xcassets */,
-				AF5C33D82475F6FC006B7013 /* omikuji-kichi.png */,
-				AF5C33D92475F6FC006B7013 /* omikuji-kyo.png */,
-				AF5C33D62475F6ED006B7013 /* omikuji-daikichi.png */,
 				AF2F66D7247279DD00038CE8 /* LaunchScreen.storyboard */,
 				AF2F66DA247279DD00038CE8 /* Info.plist */,
+				AF5C33FE247645D8006B7013 /* omikuji-daikichi.png */,
+				AF5C3400247645F6006B7013 /* omikuji-kichi.png */,
+				AF5C340224764608006B7013 /* omikuji-kyo.png */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -139,9 +139,9 @@
 			files = (
 				AF2F66D9247279DD00038CE8 /* LaunchScreen.storyboard in Resources */,
 				AF2F66D6247279DD00038CE8 /* Assets.xcassets in Resources */,
-				AF5C33D72475F6ED006B7013 /* omikuji-daikichi.png in Resources */,
-				AF5C33DA2475F6FC006B7013 /* omikuji-kichi.png in Resources */,
-				AF5C33DB2475F6FC006B7013 /* omikuji-kyo.png in Resources */,
+				AF5C33FF247645D8006B7013 /* omikuji-daikichi.png in Resources */,
+				AF5C3401247645F7006B7013 /* omikuji-kichi.png in Resources */,
+				AF5C340324764608006B7013 /* omikuji-kyo.png in Resources */,
 				AF2F66D4247279DA00038CE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
